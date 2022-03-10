@@ -3,7 +3,7 @@ import io
 from google.cloud import vision
 
 from google.cloud.vision_v1.types.image_annotator import LocalizedObjectAnnotation
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\yuta1\\Google_Json\\pbl8-330506-05907161ebc4.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key_path"
 # json_pathは、サービスアカウントキーのパス
 
 import cv2
